@@ -1,0 +1,28 @@
+{
+  "name": "vue-parcel-netlifycms",
+  "version": "0.1.0",
+  "description": "Sandbox for using Netlify CMS in a Vue/Parcel project.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "rm -rf dist .cache && parcel build index.html"
+  },
+  "keywords": [
+    "netlify-cms",
+    "vue",
+    "parcel"
+  ],
+  "author": "Brian Zelip",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-prerender": "^1.4.1",
+    "parcel-plugin-static-files-copy": "^2.2.1"
+  },
+  "dependencies": {
+    "palette.css": "^0.3.4",
+    "vue": "^2.6.11",
+    "vue-meta": "^2.3.1",
+    "vue-router": "^3.1.3"
+  }
+}
