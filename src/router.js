@@ -1,24 +1,24 @@
 import VueRouter from 'vue-router';
 
-import App from './App.vue';
+import ThePage from './components/ThePage.vue';
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: App,
+    component: ThePage,
     props: { page: 'Home' }
   },
   {
     path: '/about',
     name: 'about',
-    component: App,
+    component: ThePage,
     props: { page: 'About' }
   },
   {
     path: '/contact',
     name: 'contact',
-    component: App,
+    component: ThePage,
     props: { page: 'Contact' }
   }
 ];
